@@ -60,7 +60,7 @@ const Intro = () => {
 
 
 {/* download button */}
-     <a href="/myCv.pdf"download className="bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-white active:scale-105 transition">
+     <a href="/images/myCv.pdf"download className="bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-white active:scale-105 transition">
       Download CV <HiDownload/>
      </a>
 
