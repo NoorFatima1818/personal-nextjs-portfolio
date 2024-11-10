@@ -5,7 +5,6 @@ import React, { useState } from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import {links } from "../../lib/data";
-import { li } from "framer-motion/client";
 import clsx from "clsx";
 
 export default function Header() {

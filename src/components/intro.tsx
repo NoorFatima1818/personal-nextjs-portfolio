@@ -34,7 +34,7 @@ const Intro = () => {
       initial={{opacity:0, y:100}}
       animate={{opacity:1, y:0}}
     >
-    <span className="font-bold">Welcome! I'm Noor Fatima, </span> 
+    <span className="font-bold">Welcome! I am Noor Fatima, </span> 
     a <span className="font-bold">Frontend developer</span> specializing in crafting responsive and visually appealing 
     <span className="italic"> web applications</span>. I enjoy turning ideas into reality 
     with clean code and modern web technologies. My current focus is <span className="font-bold italic underline"> Next.js.</span>

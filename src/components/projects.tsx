@@ -1,6 +1,4 @@
 
-
-import { section } from 'framer-motion/client'
 import React from 'react'
 import SectionHeading from './section-heading'
 import Image from 'next/image'
