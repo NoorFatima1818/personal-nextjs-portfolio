@@ -56,7 +56,7 @@ const Projects = () => {
           />
           <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
             <h2 className="tracking-widest text-sm title-font font-medium text-gray-800 mb-1">
-              Calculator
+             Atm Machine
             </h2>
             <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
               Cli Typescript Project
