@@ -1,3 +1,5 @@
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+
 import { section } from 'framer-motion/client'
 import React from 'react'
 import SectionHeading from './section-heading'
