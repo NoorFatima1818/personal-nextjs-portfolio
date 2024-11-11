@@ -3,6 +3,7 @@ import React from 'react'
 import SectionHeading from './section-heading'
 import Image from 'next/image'
 import Link from 'next/link'
+// importing images
 import calculatorImage from "../../public/images/calculator.png";
 import atmImage from "../../public/images/atm.jpg";
 import universityImage from "../../public/images/university.jpg";
