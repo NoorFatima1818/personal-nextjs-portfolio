@@ -3,6 +3,12 @@ import React from 'react'
 import SectionHeading from './section-heading'
 import Image from 'next/image'
 import Link from 'next/link'
+import calculatorImage from "../../public/images/calculator.png";
+import atmImage from "../../public/images/atm.jpg";
+import universityImage from "../../public/images/university.jpg";
+import wordImage from "../../public/images/word.png";
+import currencyImage from "../../public/images/currency.png";
+import guessImage from "../../public/images/guess.png";
 
   
 
@@ -11,7 +17,7 @@ const Projects = () => {
  <section  className="scroll-mt-28 mb-28" id="projects">
   <SectionHeading>My Projects</SectionHeading>
 
- 
+ {/* project 1 */}
   <section className="text-gray-600 body-font mb-11 ">
   <div className="container px-5 py-24 mx-auto">
     <div className="flex flex-col text-center w-full">  
@@ -24,7 +30,7 @@ const Projects = () => {
            width="500" height="500" quality="95"
             alt="Calculator"
             className="absolute inset-0 w-full h-full object-cover object-center"
-            src="/images/calculator.png"
+            src={calculatorImage}
           />
           <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
             <h2 className="tracking-widest text-sm title-font font-medium text-gray-800 mb-1">
@@ -45,16 +51,16 @@ const Projects = () => {
 
 
 
-
+ {/* project 2 */}
 
       <div className="lg:w-1/3 sm:w-1/2 p-4">
         <div className="flex relative">
 
           <Image
            width="500" height="500" quality="95"
-            alt="Calculator"
+            alt="Atm"
             className="absolute inset-0 w-full h-full object-cover object-center"
-            src="/images/atm.jpg"
+            src={atmImage}
           />
           <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
             <h2 className="tracking-widest text-sm title-font font-medium text-gray-800 mb-1">
@@ -73,7 +79,7 @@ const Projects = () => {
         </div>
       </div>
 
-
+ {/* project 3 */}
       <div className="lg:w-1/3 sm:w-1/2 p-4">
         <div className="flex relative">
 
@@ -81,7 +87,7 @@ const Projects = () => {
           width="500" height="500" quality="100"
             alt="Word"
             className="absolute inset-0 w-full h-full object-cover object-center"
-            src="/images/word.png"
+            src={wordImage}
           />
           <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
             <h2 className="tracking-widest text-sm title-font font-medium text-gray-800 mb-1">
@@ -103,7 +109,7 @@ const Projects = () => {
       </div>
 
 
-
+ {/* project 4 */}
       <div className="lg:w-1/3 sm:w-1/2 p-4">
         <div className="flex relative">
 
@@ -111,7 +117,7 @@ const Projects = () => {
           width="500" height="500" quality="100"
             alt="LMS"
             className="absolute inset-0 w-full h-full object-cover object-center"
-            src="/images/university.jpg"
+            src={universityImage}
           />
           <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
             <h2 className="tracking-widest text-sm title-font font-medium text-gray-800 mb-1">
@@ -133,7 +139,7 @@ const Projects = () => {
     
       
 
-
+ {/* project 5 */}
 
       <div className="lg:w-1/3 sm:w-1/2 p-4">
         <div className="flex relative">
@@ -142,7 +148,7 @@ const Projects = () => {
           width="500" height="500" quality="100"
             alt="LMS"
             className="absolute inset-0 w-full h-full object-cover object-center"
-            src="/images/currency.png"
+            src={currencyImage}
           />
           <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
             <h2 className="tracking-widest text-sm title-font font-medium text-gray-800 mb-1">
@@ -171,7 +177,7 @@ const Projects = () => {
 
 
 
-
+ {/* project 6 */}
 
       <div className="lg:w-1/3 sm:w-1/2 p-4">
         <div className="flex relative">
@@ -180,7 +186,7 @@ const Projects = () => {
           width="500" height="500" quality="100"
             alt="Numbers"
             className="absolute inset-0 w-full h-full object-cover object-center"
-            src="/images/guess.png"
+            src={guessImage}
           />
           <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
             <h2 className="tracking-widest text-sm title-font font-medium text-gray-800 mb-1">

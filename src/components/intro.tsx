@@ -7,6 +7,7 @@ import { motion} from 'framer-motion';
 import Link from 'next/link';
 import { BsArrowRight, BsGithub, BsLinkedin } from 'react-icons/bs';
 import { HiDownload } from 'react-icons/hi';
+import profileImage from "../../public/images/profile.png";
 
 
 
@@ -22,7 +23,7 @@ const Intro = () => {
                       type:"tween"
                      }}>
             <Image
-             alt="" src="/images/profile.png" width="192" height="192" quality="95" 
+             alt="" src={profileImage} width="192" height="192" quality="95" 
              priority={true}  className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
             />
 
@@ -60,7 +61,7 @@ const Intro = () => {
 
 
 {/* download button */}
-     <a href="/myCv.pdf"download className="bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-white active:scale-105 transition">
+     <a href="/images/NoorCv.pdf" download className="bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-white active:scale-105 transition">
       Download CV <HiDownload/>
      </a>
 
