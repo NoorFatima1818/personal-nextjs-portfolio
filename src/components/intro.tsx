@@ -1,7 +1,6 @@
 
-
 "use client";
-import React from 'react'
+import React, { useEffect } from 'react'
 import Image from 'next/image'
 import { motion} from 'framer-motion';
 import Link from 'next/link';
@@ -12,6 +11,9 @@ import profileImage from "../../public/images/profile.png";
 
 
 const Intro = () => {
+  useEffect(() => {
+        console.log('IMAGE INSPECTION >', profileImage)
+  })
   return (
  <section className="mb-28 max-w-[50rem] text-center sm:mb-0">
 
@@ -22,13 +24,15 @@ const Intro = () => {
                      transition={{duration:0.2,
                       type:"tween"
                      }}>
-            <Image
+                                  <Image
              alt="" src={profileImage} width="192" height="192" quality="95" 
              priority={true}  className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
             />
 
            
         </motion.div>
+        
+                     
 
     </div>
 
@@ -80,7 +84,7 @@ const Intro = () => {
       <BsGithub/>
      </a>
     </motion.div>
-
+   
     
     </section>
   )

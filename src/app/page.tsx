@@ -9,6 +9,7 @@ import Contact from "@/components/contact";
 export default function Home() {
   return (
     <main className="flex flex-col items-center px-4 scroll-mt-[100rem]" id="home">
+      {/* <img src='../../public/images/profile.png'></img> */}
       <Intro />
       <SectionDivider />
       <About/>
