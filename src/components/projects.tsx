@@ -4,11 +4,11 @@ import SectionHeading from './section-heading'
 import Image from 'next/image'
 import Link from 'next/link'
 // importing images
-import calculatorImage from "../../public/images/calculator.png";
+import calculatorImage from "../../public/images/calculator.jpg";
 import atmImage from "../../public/images/atm.jpg";
 import universityImage from "../../public/images/university.jpg";
 import wordImage from "../../public/images/word.png";
-import currencyImage from "../../public/images/currency.png";
+import currencyImage from "../../public/images/currency.jpg";
 import guessImage from "../../public/images/guess.png";
 
   
