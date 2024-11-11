@@ -4,11 +4,11 @@ import SectionHeading from './section-heading'
 import Image from 'next/image'
 import Link from 'next/link'
 // importing images
-import calculatorImage from "../../public/images/calculator.jpg";
+// import calculatorImage from "../../public/images/calculator.jpg";
 import atmImage from "../../public/images/atm.jpg";
 import universityImage from "../../public/images/university.jpg";
 import wordImage from "../../public/images/word.png";
-import currencyImage from "../../public/images/currency.jpg";
+// import currencyImage from "../../public/images/currency.jpg";
 import guessImage from "../../public/images/guess.png";
 
   
@@ -31,7 +31,7 @@ const Projects = () => {
            width="500" height="500" quality="95"
             alt="Calculator"
             className="absolute inset-0 w-full h-full object-cover object-center"
-            src={calculatorImage}
+            src={wordImage}
           />
           <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
             <h2 className="tracking-widest text-sm title-font font-medium text-gray-800 mb-1">
@@ -149,7 +149,7 @@ const Projects = () => {
           width="500" height="500" quality="100"
             alt="LMS"
             className="absolute inset-0 w-full h-full object-cover object-center"
-            src={currencyImage}
+            src={atmImage}
           />
           <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
             <h2 className="tracking-widest text-sm title-font font-medium text-gray-800 mb-1">
