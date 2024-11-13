@@ -15,7 +15,8 @@ const Contact = () => {
 
     // Ensure form.current is not null before sending the email
     if (form.current) {
-      emailjs.sendForm('service_x452ecg', 'template_1n01sf9', form.current, 'I_3emn91VAwYTpY28')
+      emailjs.sendForm('service_ylo191h', 'template_1n01sf9', form.current, 'I_3emn91VAwYTpY28')
+      // emailjs.sendForm('service_x452ecg', 'template_1n01sf9', form.current, 'I_3emn91VAwYTpY28')
         .then((result) => {
           console.log('Email sent:', result.text);
           alert('Email sent successfully!');

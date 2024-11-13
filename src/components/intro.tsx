@@ -11,9 +11,6 @@ import profileImage from "../../public/images/profile.png";
 
 
 const Intro = () => {
-  useEffect(() => {
-        console.log('IMAGE INSPECTION >', profileImage)
-  })
   return (
  <section className="mb-28 max-w-[50rem] text-center sm:mb-0">
 
